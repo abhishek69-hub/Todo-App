@@ -1,0 +1,57 @@
+  *{
+    box-sizing: border-box;
+}
+body{
+    /* display: flex; */
+    background-color: rgb(162, 176, 189);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+h1{
+    color: rgb(39, 90, 167);
+    font-size: 7rem;
+    text-align: center;
+     
+}
+ .formbutton{
+    display: flex;
+    justify-content: space-evenly;
+
+
+} 
+form{
+    margin: auto;
+    width: 400px;
+    max-width: 100%;
+}
+.input{
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    display: inline-block;
+    width: 100%;
+}
+#btn{
+    
+    text-align: center;
+    width: 140px;
+    height: 35px;
+    
+    /* padding: 1rem 2rem;
+    display: block;
+    right: 200px;
+    vertical-align: middle;  */
+
+
+}
+.todos{
+    background-color: rgb(162, 176, 189);
+    list-style: none;
+    margin-top:5px;
+    padding : 2px;
+}
+.todos li{
+    background-color: rgb(245, 248, 252);
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
